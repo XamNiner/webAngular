@@ -34,5 +34,5 @@ angular
 angular.module('publicApp')
     .constant('config', {
         //url for the appication to connect server with socket.io
-        SIGNALING_SERVER_URL: APP URL HERE;
+        SIGNALING_SERVER_URL: https://rocky-citadel-89998.herokuapp.com;
     });
