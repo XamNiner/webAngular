@@ -32,5 +32,5 @@ angular
     })
     .constant('config', {
         //url for the application to connect server with socket.io
-        SIGNALING_SERVER_URL: 'rocky-citadel-89998.herokuapp.com' 
+        SIGNALING_SERVER_URL: 'test.com' 
     });
