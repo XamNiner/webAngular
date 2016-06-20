@@ -12,9 +12,9 @@ angular.module('publicApp')
     return {
         template: '<div> <video ng-src="" autoplay></video></div>',
         restrict: 'E',
-        replace: true;
+        replace: true,
         scope: {
-            vidSrc '@':
+            vidSrc: '@'
         },    
         link: function (scope) {
             console.log('Initializing video-player');
